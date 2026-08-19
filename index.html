@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SHOP.CO</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================================
+         TOP BANNER
+    ================================= -->
+
+    <div class="top-banner">
+        Sign up and get 20% off to your first order.
+        <a href="#">Sign Up Now</a>
+    </div>
+
+
+    <!-- ================================
+         NAVBAR
+    ================================= -->
+
+    <header class="navbar">
+
+        <!-- LOGO -->
+        <a href="index.html" class="logo">
+            SHOP.CO
+        </a>
+
+
+        <!-- NAVIGATION -->
+        <nav class="nav-links">
+
+            <a href="#" class="shop-link">
+                Shop
+                <span class="dropdown-arrow">⌄</span>
+            </a>
+
+            <a href="#">
+                On Sale
+            </a>
+
+            <a href="#new-arrivals">
+                New Arrivals
+            </a>
+
+            <a href="#">
+                Brands
+            </a>
+
+        </nav>
+
+
+        <!-- RIGHT SIDE -->
+        <div class="nav-actions">
+
+            <!-- SEARCH -->
+            <div class="search-box">
+
+                <span class="search-icon">
+                    ⌕
+                </span>
+
+                <input
+                    type="text"
+                    placeholder="Search for products..."
+                >
+
+            </div>
+
+
+            <!-- CART -->
+            <a
+                href="cart.html"
+                class="nav-icon"
+                aria-label="Shopping Cart"
+            >
+                🛒
+            </a>
+
+
+            <!-- ACCOUNT -->
+            <a
+                href="#"
+                class="nav-icon"
+                aria-label="Account"
+            >
+                👤
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================================
+         HERO
+    ================================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                FIND CLOTHES
+                <br>
+                THAT MATCHES
+                <br>
+                YOUR STYLE
+            </h1>
+
+
+            <p>
+                Browse through our diverse range of
+                meticulously crafted garments, designed
+                to bring out your individuality and
+                cater to your sense of style.
+            </p>
+
+
+            <a
+                href="#new-arrivals"
+                class="hero-button"
+            >
+                Shop Now
+            </a>
+
+
+            <!-- STATS -->
+
+            <div class="hero-stats">
+
+                <div class="stat">
+
+                    <strong>
+                        200+
+                    </strong>
+
+                    <span>
+                        International Brands
+                    </span>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <strong>
+                        2,000+
+                    </strong>
+
+                    <span>
+                        High-Quality Products
+                    </span>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <strong>
+                        30,000+
+                    </strong>
+
+                    <span>
+                        Happy Customers
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- HERO IMAGE -->
+
+        <div class="hero-image">
+
+            <img
+                src="assets/images/hero.jpg"
+                alt="Fashion models"
+            >
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================
+         BRANDS
+    ================================= -->
+
+    <section class="brands">
+
+        <h3>VERSACE</h3>
+
+        <h3>ZARA</h3>
+
+        <h3>GUCCI</h3>
+
+        <h3>PRADA</h3>
+
+        <h3>Calvin Klein</h3>
+
+    </section>
+
+
+    <!-- ================================
+         NEW ARRIVALS
+    ================================= -->
+
+    <section
+        class="products-section"
+        id="new-arrivals"
+    >
+
+        <h2>
+            NEW ARRIVALS
+        </h2>
+
+
+        <!--
+            Products are NOT hardcoded here.
+
+            JavaScript will find this element
+            using its ID and generate the
+            product cards dynamically.
+        -->
+
+        <div
+            class="products-container"
+            id="new-products"
+        ></div>
+
+
+        <a
+            href="#"
+            class="view-all-button"
+        >
+            View All
+        </a>
+
+    </section>
+
+
+    <!-- ================================
+         TOP SELLING
+    ================================= -->
+
+    <section class="products-section">
+
+        <h2>
+            TOP SELLING
+        </h2>
+
+
+        <!--
+            Again, products are generated
+            dynamically with JavaScript.
+        -->
+
+        <div
+            class="products-container"
+            id="top-selling-products"
+        ></div>
+
+
+        <a
+            href="#"
+            class="view-all-button"
+        >
+            View All
+        </a>
+
+    </section>
+
+    <!-- ================================
+        BROWSE BY DRESS STYLE
+    ================================= -->
+
+    <section class="dress-style-section">
+
+        <h2>
+            BROWSE BY DRESS STYLE
+        </h2>
+
+
+        <div class="dress-style-grid">
+
+
+            <!-- CASUAL -->
+
+            <a
+                href="category.html?category=Casual"
+                class="dress-card"
+            >
+
+                <img
+                    src="assets/images/casual.png"
+                    alt="Casual fashion"
+                >
+
+                <h3>
+                    Casual
+                </h3>
+
+            </a>
+
+
+
+            <!-- FORMAL -->
+
+            <a
+                href="category.html?category=Formal"
+                class="dress-card"
+            >
+
+                <img
+                    src="assets/images/formal.png"
+                    alt="Formal fashion"
+                >
+
+                <h3>
+                    Formal
+                </h3>
+
+            </a>
+
+
+
+            <!-- PARTY -->
+
+            <a
+                href="category.html?category=Party"
+                class="dress-card"
+            >
+
+                <img
+                    src="assets/images/party.png"
+                    alt="Party fashion"
+                >
+
+                <h3>
+                    Party
+                </h3>
+
+            </a>
+
+
+
+            <!-- GYM -->
+
+            <a
+                href="category.html?category=Gym"
+                class="dress-card"
+            >
+
+                <img
+                    src="assets/images/gym.png"
+                    alt="Gym fashion"
+                >
+
+                <h3>
+                    Gym
+                </h3>
+
+            </a>
+
+
+        </div>
+
+    </section>
+    <!-- ================================
+         CUSTOMER REVIEWS
+    ================================= -->
+
+    <section class="reviews-section">
+
+        <h2>
+            OUR HAPPY CUSTOMERS
+        </h2>
+
+
+        <div class="reviews-container">
+
+            <article class="review-card">
+
+                <div class="review-stars">
+                    ★★★★★
+                </div>
+
+                <h3>
+                    Sarah M. ✓
+                </h3>
+
+                <p>
+                    "I'm blown away by the quality
+                    and style of the clothes I received.
+                    Every piece exceeded my expectations."
+                </p>
+
+            </article>
+
+
+            <article class="review-card">
+
+                <div class="review-stars">
+                    ★★★★★
+                </div>
+
+                <h3>
+                    Alex K. ✓
+                </h3>
+
+                <p>
+                    "Finding clothes that match my
+                    personal style used to be difficult.
+                    SHOP.CO makes it so much easier."
+                </p>
+
+            </article>
+
+
+            <article class="review-card">
+
+                <div class="review-stars">
+                    ★★★★★
+                </div>
+
+                <h3>
+                    James L. ✓
+                </h3>
+
+                <p>
+                    "The quality is amazing and the
+                    delivery was quick. I'll definitely
+                    be shopping here again."
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================
+         NEWSLETTER
+    ================================= -->
+
+    <section class="newsletter">
+
+        <div>
+
+            <h2>
+                STAY UP TO DATE ABOUT
+                <br>
+                OUR LATEST OFFERS
+            </h2>
+
+        </div>
+
+
+        <div class="newsletter-form">
+
+            <input
+                type="email"
+                placeholder="Enter your email address"
+            >
+
+            <button>
+                Subscribe to Newsletter
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================
+         FOOTER
+    ================================= -->
+
+    <footer class="footer">
+
+        <div class="footer-brand">
+
+            <h2>
+                SHOP.CO
+            </h2>
+
+            <p>
+                We have clothes that suits your
+                style and which you're proud to wear.
+                From women to men.
+            </p>
+
+            <div class="social-icons">
+
+                <a href="#" aria-label="Twitter">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>
+                COMPANY
+            </h3>
+
+            <a href="#">About</a>
+
+            <a href="#">Features</a>
+
+            <a href="#">Works</a>
+
+            <a href="#">Career</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>
+                HELP
+            </h3>
+
+            <a href="#">Customer Support</a>
+
+            <a href="#">Delivery Details</a>
+
+            <a href="#">Terms & Conditions</a>
+
+            <a href="#">Privacy Policy</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>
+                FAQ
+            </h3>
+
+            <a href="#">Account</a>
+
+            <a href="#">Manage Deliveries</a>
+
+            <a href="#">Orders</a>
+
+            <a href="#">Payments</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>
+                RESOURCES
+            </h3>
+
+            <a href="#">Free eBooks</a>
+
+            <a href="#">Development Tutorial</a>
+
+            <a href="#">How-to Blog</a>
+
+            <a href="#">YouTube Playlist</a>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================================
+         FOOTER BOTTOM
+    ================================= -->
+
+    <div class="footer-bottom">
+
+        <p>
+            Shop.co © 2000-2025, All Rights Reserved
+        </p>
+
+    </div>
+
+
+    <!-- ================================
+         JAVASCRIPT
+    ================================= -->
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

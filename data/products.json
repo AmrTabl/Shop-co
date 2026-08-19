@@ -1,0 +1,153 @@
+[
+    {
+        "id": "tape-tshirt",
+        "name": "T-shirt with Tape Details",
+        "category": "Casual",
+        "style": "Casual",
+        "gender": "Men",
+        "price": 120,
+        "originalPrice": 120,
+        "discount": 0,
+        "rating": 4.5,
+        "reviewCount": 451,
+        "colors": [
+            {
+                "name": "Black",
+                "hex": "#000000"
+            },
+            {
+                "name": "White",
+                "hex": "#FFFFFF"
+            },
+            {
+                "name": "Blue",
+                "hex": "#063AF5"
+            }
+        ],
+        "sizes": [
+            "Small",
+            "Medium"
+        ],
+        "images": [
+            "assets/images/products/tape-tshirt.jpg"
+        ],
+        "description": "A comfortable casual t-shirt.",
+        "details": "Made from high quality cotton.",
+        "tags": [
+            "new"
+        ],
+        "stock": 24
+    },
+
+    {
+        "id": "skinny-jeans",
+        "name": "Skinny Fit Jeans",
+        "category": "Casual",
+        "style": "Casual",
+        "gender": "Men",
+        "price": 180,
+        "originalPrice": 220,
+        "discount": 18,
+        "rating": 4.7,
+        "reviewCount": 320,
+        "colors": [
+            {
+                "name": "Blue",
+                "hex": "#063AF5"
+            },
+            {
+                "name": "Black",
+                "hex": "#000000"
+            }
+        ],
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "images": [
+            "assets/images/products/skinny-jeans.jpg"
+        ],
+        "description": "Slim and comfortable jeans.",
+        "details": "Stretch denim material.",
+        "tags": [
+            "sale"
+        ],
+        "stock": 15
+    },
+
+    {
+        "id": "checkered-shirt",
+        "name": "Checkered Shirt",
+        "category": "Casual",
+        "style": "Casual",
+        "gender": "Men",
+        "price": 130,
+        "originalPrice": 160,
+        "discount": 19,
+        "rating": 4.6,
+        "reviewCount": 210,
+        "colors": [
+            {
+                "name": "Red",
+                "hex": "#FF0000"
+            },
+            {
+                "name": "Black",
+                "hex": "#000000"
+            }
+        ],
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large",
+            "X-Large"
+        ],
+        "images": [
+            "assets/images/products/checkered-shirt.jpg"
+        ],
+        "description": "A classic checkered casual shirt.",
+        "details": "Soft cotton fabric.",
+        "tags": [
+            "new"
+        ],
+        "stock": 20
+    },
+
+    {
+        "id": "hoodie-black",
+        "name": "Black Hoodie",
+        "category": "Casual",
+        "style": "Gym",
+        "gender": "Men",
+        "price": 150,
+        "originalPrice": 180,
+        "discount": 17,
+        "rating": 4.3,
+        "reviewCount": 180,
+        "colors": [
+            {
+                "name": "Black",
+                "hex": "#000000"
+            },
+            {
+                "name": "White",
+                "hex": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            "Medium",
+            "Large",
+            "X-Large"
+        ],
+        "images": [
+            "assets/images/products/hoodie-black.jpg"
+        ],
+        "description": "A comfortable everyday hoodie.",
+        "details": "Soft fleece material.",
+        "tags": [
+            "sale"
+        ],
+        "stock": 12
+    }
+]
