@@ -149,5 +149,483 @@
             "sale"
         ],
         "stock": 12
+    },
+    
+    {
+        "id": "gym-performance-shirt",
+        "name": "Performance Training Shirt",
+        "category": "Gym",
+        "style": "Gym",
+        "gender": "Men",
+        "price": 95,
+        "originalPrice": 120,
+        "discount": 21,
+        "rating": 4.6,
+        "reviewCount": 245,
+        "colors": [
+            {
+                "name": "Black",
+                "hex": "#000000"
+            },
+            {
+                "name": "Gray",
+                "hex": "#808080"
+            },
+            {
+                "name": "Blue",
+                "hex": "#063AF5"
+            }
+        ],
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large",
+            "X-Large"
+        ],
+        "images": [
+            "assets/images/products/gym-performance-shirt.jpg"
+        ],
+        "description": "A lightweight performance shirt designed for intense workouts.",
+        "details": "Breathable and quick-drying athletic fabric.",
+        "tags": [
+            "new",
+            "gym"
+        ],
+        "stock": 25
+    },
+
+    {
+        "id": "gym-jogger-pants",
+        "name": "Relaxed Gym Joggers",
+        "category": "Gym",
+        "style": "Gym",
+        "gender": "Men",
+        "price": 140,
+        "originalPrice": 170,
+        "discount": 18,
+        "rating": 4.5,
+        "reviewCount": 198,
+        "colors": [
+            {
+                "name": "Black",
+                "hex": "#000000"
+            },
+            {
+                "name": "Gray",
+                "hex": "#808080"
+            }
+        ],
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large",
+            "X-Large"
+        ],
+        "images": [
+            "assets/images/products/gym-jogger-pants.jpg"
+        ],
+        "description": "Comfortable jogger pants perfect for workouts and everyday wear.",
+        "details": "Stretchable fabric with an elastic waistband.",
+        "tags": [
+            "sale",
+            "gym"
+        ],
+        "stock": 18
+    },
+
+    {
+        "id": "gym-training-shorts",
+        "name": "Training Shorts",
+        "category": "Gym",
+        "style": "Gym",
+        "gender": "Men",
+        "price": 85,
+        "originalPrice": 100,
+        "discount": 15,
+        "rating": 4.4,
+        "reviewCount": 156,
+        "colors": [
+            {
+                "name": "Black",
+                "hex": "#000000"
+            },
+            {
+                "name": "Navy",
+                "hex": "#000080"
+            }
+        ],
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large",
+            "X-Large"
+        ],
+        "images": [
+            "assets/images/products/gym-training-shorts.jpg"
+        ],
+        "description": "Lightweight training shorts made for comfortable movement.",
+        "details": "Quick-dry fabric with side pockets.",
+        "tags": [
+            "gym"
+        ],
+        "stock": 30
+    },
+
+    {
+        "id": "gym-sleeveless-shirt",
+        "name": "Athletic Sleeveless Shirt",
+        "category": "Gym",
+        "style": "Gym",
+        "gender": "Men",
+        "price": 75,
+        "originalPrice": 95,
+        "discount": 21,
+        "rating": 4.3,
+        "reviewCount": 132,
+        "colors": [
+            {
+                "name": "Black",
+                "hex": "#000000"
+            },
+            {
+                "name": "White",
+                "hex": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "images": [
+            "assets/images/products/gym-sleeveless-shirt.jpg"
+        ],
+        "description": "A breathable sleeveless shirt for training and workouts.",
+        "details": "Soft lightweight material designed for maximum movement.",
+        "tags": [
+            "gym",
+            "sale"
+        ],
+        "stock": 22
+    },
+
+    {
+        "id": "formal-slim-shirt",
+        "name": "Slim Fit Formal Shirt",
+        "category": "Formal",
+        "style": "Formal",
+        "gender": "Men",
+        "price": 135,
+        "originalPrice": 160,
+        "discount": 16,
+        "rating": 4.7,
+        "reviewCount": 289,
+        "colors": [
+            {
+                "name": "White",
+                "hex": "#FFFFFF"
+            },
+            {
+                "name": "Light Blue",
+                "hex": "#ADD8E6"
+            },
+            {
+                "name": "Black",
+                "hex": "#000000"
+            }
+        ],
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large",
+            "X-Large"
+        ],
+        "images": [
+            "assets/images/products/formal-slim-shirt.jpg"
+        ],
+        "description": "A clean slim-fit shirt designed for formal occasions.",
+        "details": "Smooth cotton blend with a structured collar.",
+        "tags": [
+            "formal",
+            "new"
+        ],
+        "stock": 20
+    },
+
+    {
+        "id": "formal-black-suit",
+        "name": "Classic Black Suit",
+        "category": "Formal",
+        "style": "Formal",
+        "gender": "Men",
+        "price": 350,
+        "originalPrice": 420,
+        "discount": 17,
+        "rating": 4.8,
+        "reviewCount": 176,
+        "colors": [
+            {
+                "name": "Black",
+                "hex": "#000000"
+            },
+            {
+                "name": "Navy",
+                "hex": "#000080"
+            }
+        ],
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large",
+            "X-Large"
+        ],
+        "images": [
+            "assets/images/products/formal-black-suit.jpg"
+        ],
+        "description": "A timeless formal suit for business meetings and special occasions.",
+        "details": "Premium fabric with a modern tailored fit.",
+        "tags": [
+            "formal"
+        ],
+        "stock": 10
+    },
+
+    {
+        "id": "formal-dress-pants",
+        "name": "Tailored Dress Pants",
+        "category": "Formal",
+        "style": "Formal",
+        "gender": "Men",
+        "price": 165,
+        "originalPrice": 195,
+        "discount": 15,
+        "rating": 4.5,
+        "reviewCount": 143,
+        "colors": [
+            {
+                "name": "Black",
+                "hex": "#000000"
+            },
+            {
+                "name": "Gray",
+                "hex": "#808080"
+            },
+            {
+                "name": "Navy",
+                "hex": "#000080"
+            }
+        ],
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large",
+            "X-Large"
+        ],
+        "images": [
+            "assets/images/products/formal-dress-pants.jpg"
+        ],
+        "description": "Elegant tailored pants suitable for work and formal events.",
+        "details": "Comfortable fabric with a straight tailored cut.",
+        "tags": [
+            "formal",
+            "sale"
+        ],
+        "stock": 16
+    },
+
+    {
+        "id": "formal-blazer",
+        "name": "Modern Formal Blazer",
+        "category": "Formal",
+        "style": "Formal",
+        "gender": "Men",
+        "price": 220,
+        "originalPrice": 260,
+        "discount": 15,
+        "rating": 4.6,
+        "reviewCount": 204,
+        "colors": [
+            {
+                "name": "Black",
+                "hex": "#000000"
+            },
+            {
+                "name": "Gray",
+                "hex": "#808080"
+            }
+        ],
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large",
+            "X-Large"
+        ],
+        "images": [
+            "assets/images/products/formal-blazer.jpg"
+        ],
+        "description": "A modern blazer that adds a polished look to any outfit.",
+        "details": "Structured shoulders with a comfortable inner lining.",
+        "tags": [
+            "formal",
+            "new"
+        ],
+        "stock": 14
+    },
+
+    {
+        "id": "party-sequin-shirt",
+        "name": "Sequin Party Shirt",
+        "category": "Party",
+        "style": "Party",
+        "gender": "Men",
+        "price": 155,
+        "originalPrice": 190,
+        "discount": 18,
+        "rating": 4.5,
+        "reviewCount": 167,
+        "colors": [
+            {
+                "name": "Black",
+                "hex": "#000000"
+            },
+            {
+                "name": "Silver",
+                "hex": "#C0C0C0"
+            }
+        ],
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large",
+            "X-Large"
+        ],
+        "images": [
+            "assets/images/products/party-sequin-shirt.jpg"
+        ],
+        "description": "A stylish sequin shirt designed to stand out at parties.",
+        "details": "Shimmering finish with a comfortable regular fit.",
+        "tags": [
+            "party",
+            "new"
+        ],
+        "stock": 12
+    },
+
+    {
+        "id": "party-satin-shirt",
+        "name": "Satin Party Shirt",
+        "category": "Party",
+        "style": "Party",
+        "gender": "Men",
+        "price": 125,
+        "originalPrice": 150,
+        "discount": 17,
+        "rating": 4.4,
+        "reviewCount": 143,
+        "colors": [
+            {
+                "name": "Black",
+                "hex": "#000000"
+            },
+            {
+                "name": "Red",
+                "hex": "#FF0000"
+            },
+            {
+                "name": "White",
+                "hex": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "images": [
+            "assets/images/products/party-satin-shirt.jpg"
+        ],
+        "description": "A smooth satin shirt perfect for parties and evening events.",
+        "details": "Soft satin fabric with a relaxed modern fit.",
+        "tags": [
+            "party"
+        ],
+        "stock": 19
+    },
+
+    {
+        "id": "party-casual-blazer",
+        "name": "Party Night Blazer",
+        "category": "Party",
+        "style": "Party",
+        "gender": "Men",
+        "price": 240,
+        "originalPrice": 290,
+        "discount": 17,
+        "rating": 4.7,
+        "reviewCount": 121,
+        "colors": [
+            {
+                "name": "Black",
+                "hex": "#000000"
+            },
+            {
+                "name": "Burgundy",
+                "hex": "#800020"
+            }
+        ],
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large",
+            "X-Large"
+        ],
+        "images": [
+            "assets/images/products/party-casual-blazer.jpg"
+        ],
+        "description": "A stylish blazer designed for parties and evening occasions.",
+        "details": "Modern slim cut with a subtle textured finish.",
+        "tags": [
+            "party",
+            "sale"
+        ],
+        "stock": 11
+    },
+
+    {
+        "id": "party-wide-leg-pants",
+        "name": "Party Wide-Leg Pants",
+        "category": "Party",
+        "style": "Party",
+        "gender": "Men",
+        "price": 145,
+        "originalPrice": 175,
+        "discount": 17,
+        "rating": 4.3,
+        "reviewCount": 98,
+        "colors": [
+            {
+                "name": "Black",
+                "hex": "#000000"
+            },
+            {
+                "name": "Gray",
+                "hex": "#808080"
+            }
+        ],
+        "sizes": [
+            "Small",
+            "Medium",
+            "Large",
+            "X-Large"
+        ],
+        "images": [
+            "assets/images/products/party-wide-leg-pants.jpg"
+        ],
+        "description": "Stylish wide-leg pants for a modern party outfit.",
+        "details": "Comfortable lightweight fabric with a relaxed fit.",
+        "tags": [
+            "party"
+        ],
+        "stock": 17
     }
 ]

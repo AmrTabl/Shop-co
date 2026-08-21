@@ -55,11 +55,6 @@ fetch("data/products.json")
 
     .then(products => {
 
-        console.log(
-            "All products:",
-            products
-        );
-
 
         // ====================================
         // PRODUCT COUNT
