@@ -317,3 +317,79 @@ else {
         });
 
 }
+
+
+    // ========================================
+// SHOP DROPDOWN
+// ========================================
+
+const shopDropdown =
+    document.querySelector(".shop-dropdown");
+
+const shopDropdownButton =
+    document.querySelector(
+        "#shop-dropdown-button"
+    );
+
+const shopDropdownMenu =
+    document.querySelector(
+        "#shop-dropdown-menu"
+    );
+
+
+// ========================================
+// TOGGLE DROPDOWN
+// ========================================
+
+if (
+    shopDropdown &&
+    shopDropdownButton &&
+    shopDropdownMenu
+) {
+
+    shopDropdownButton.addEventListener(
+        "click",
+        function(event) {
+
+            event.stopPropagation();
+
+            shopDropdownMenu.classList.toggle(
+                "show"
+            );
+
+            shopDropdown.classList.toggle(
+                "open"
+            );
+
+        }
+    );
+
+
+    // ====================================
+    // CLOSE WHEN CLICKING OUTSIDE
+    // ====================================
+
+    document.addEventListener(
+        "click",
+        function(event) {
+
+            if (
+                !shopDropdown.contains(
+                    event.target
+                )
+            ) {
+
+                shopDropdownMenu.classList.remove(
+                    "show"
+                );
+
+                shopDropdown.classList.remove(
+                    "open"
+                );
+
+            }
+
+        }
+    );
+
+}

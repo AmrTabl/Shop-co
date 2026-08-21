@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>SHOP.CO</title>
@@ -23,7 +23,7 @@
 
     <div class="top-banner">
         Sign up and get 20% off to your first order.
-        <a href="#">Sign Up Now</a>
+        <a href="signup.html">Sign Up Now</a>
     </div>
 
 
@@ -42,10 +42,50 @@
         <!-- NAVIGATION -->
         <nav class="nav-links">
 
-            <a href="#" class="shop-link">
-                Shop
-                <span class="dropdown-arrow">⌄</span>
-            </a>
+            <!-- SHOP DROPDOWN -->
+            <div class="shop-dropdown">
+
+                <button
+                    type="button"
+                    class="shop-link"
+                    id="shop-dropdown-button"
+                >
+                    Shop
+                    <span class="dropdown-arrow">⌄</span>
+                </button>
+
+
+                <div
+                    class="dropdown-menu"
+                    id="shop-dropdown-menu"
+                >
+
+                    <a href="category.html?category=Casual">
+                        Casual
+                    </a>
+
+                    <a href="category.html?category=Formal">
+                        Formal
+                    </a>
+
+                    <a href="category.html?category=Party">
+                        Party
+                    </a>
+
+                    <a href="category.html?category=Gym">
+                        Gym
+                    </a>
+
+                    <div class="dropdown-divider"></div>
+
+                    <a href="products.html">
+                        View All Products
+                    </a>
+
+                </div>
+
+            </div>
+
 
             <a href="#">
                 On Sale
@@ -92,7 +132,7 @@
 
             <!-- ACCOUNT -->
             <a
-                href="#"
+                href="signin.html"
                 class="nav-icon"
                 aria-label="Account"
             >
@@ -521,8 +561,8 @@
                     <i class="fa-brands fa-instagram"></i>
                 </a>
 
-                <a href="#" aria-label="GitHub">
-                    <i class="fa-brands fa-github"></i>
+                <a href="#" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
                 </a>
 
             </div>

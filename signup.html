@@ -10,7 +10,7 @@
         content="width=device-width, initial-scale=1.0"
     >
 
-    <title>Category | SHOP.CO</title>
+    <title>Sign Up | SHOP.CO</title>
 
     <link
         rel="stylesheet"
@@ -36,7 +36,7 @@
 
     Sign up and get 20% off to your first order.
 
-    <a href="signup.html">
+    <a href="#">
         Sign Up Now
     </a>
 
@@ -59,61 +59,16 @@
 
     <nav class="nav-links">
 
-        <!-- SHOP DROPDOWN -->
-        <div class="shop-dropdown">
-
-                <button
-                    type="button"
-                    class="shop-link"
-                    id="shop-dropdown-button"
-                >
-                    Shop
-                    <span class="dropdown-arrow">⌄</span>
-                </button>
-
-
-                <div
-                    class="dropdown-menu"
-                    id="shop-dropdown-menu"
-                >
-
-                    <a href="category.html?category=Casual">
-                        Casual
-                    </a>
-
-                    <a href="category.html?category=Formal">
-                        Formal
-                    </a>
-
-                    <a href="category.html?category=Party">
-                        Party
-                    </a>
-
-                    <a href="category.html?category=Gym">
-                        Gym
-                    </a>
-
-                    <div class="dropdown-divider"></div>
-
-                    <a href="products.html">
-                        View All Products
-                    </a>
-
-                </div>
-
-         </div>
-
-
-        <a href="#">
-            On Sale
+        <a href="index.html">
+            Home
         </a>
 
         <a href="index.html#new-arrivals">
             New Arrivals
         </a>
 
-        <a href="#">
-            Brands
+        <a href="category.html">
+            Shop
         </a>
 
     </nav>
@@ -143,98 +98,161 @@
             🛒
         </a>
 
-
-        <a
-            href="signin.html"
-            class="nav-icon"
-            aria-label="Account"
-        >
-            👤
-        </a>
-
     </div>
 
 </header>
 
 
 <!-- ================================
-     CATEGORY PAGE
+     SIGN UP
 ================================= -->
 
-<main class="category-page">
+<main class="auth-page">
+
+    <div class="auth-container">
 
 
-    <!-- BREADCRUMB -->
+        <div class="auth-card">
 
-    <div class="breadcrumb">
+            <div class="auth-logo">
 
-        <a href="index.html">
-            Home
-        </a>
+                <a href="index.html">
+                    SHOP.CO
+                </a>
 
-        <span>
-            ›
-        </span>
+            </div>
 
-        <span id="category-breadcrumb">
-            Category
-        </span>
+
+            <h1>
+                Create an account
+            </h1>
+
+
+            <p class="auth-subtitle">
+                Sign up to start shopping with SHOP.CO
+            </p>
+
+
+            <form id="signup-form">
+
+
+                <!-- NAME -->
+
+                <div class="auth-field">
+
+                    <label for="name">
+                        Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Your name"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- EMAIL -->
+
+                <div class="auth-field">
+
+                    <label for="signup-email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="signup-email"
+                        placeholder="name@example.com"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- PASSWORD -->
+
+                <div class="auth-field">
+
+                    <label for="signup-password">
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="signup-password"
+                        placeholder="Enter your password"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- CONFIRM PASSWORD -->
+
+                <div class="auth-field">
+
+                    <label for="confirm-password">
+                        Confirm Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="confirm-password"
+                        placeholder="Confirm your password"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- ERROR MESSAGE -->
+
+                <p
+                    id="signup-error"
+                    class="auth-error"
+                ></p>
+
+
+                <!-- SUCCESS MESSAGE -->
+
+                <p
+                    id="signup-success"
+                    class="auth-success"
+                ></p>
+
+
+                <!-- BUTTON -->
+
+                <button
+                    type="submit"
+                    class="auth-button"
+                >
+                    Create Account
+                </button>
+
+
+            </form>
+
+
+            <p class="auth-switch">
+
+                Already have an account?
+
+                <a href="signin.html">
+                    Sign in
+                </a>
+
+            </p>
+
+
+        </div>
 
     </div>
-
-
-    <!-- CATEGORY TITLE -->
-
-    <h1
-        class="category-title"
-        id="category-title"
-    >
-        Category
-    </h1>
-
-
-    <!-- PRODUCTS -->
-
-    <div
-        id="category-products"
-        class="products-container category-products"
-    ></div>
-
 
 </main>
-
-
-<!-- ================================
-     NEWSLETTER
-================================= -->
-
-<section class="newsletter">
-
-    <div>
-
-        <h2>
-            STAY UP TO DATE ABOUT
-            <br>
-            OUR LATEST OFFERS
-        </h2>
-
-    </div>
-
-
-    <div class="newsletter-form">
-
-        <input
-            type="email"
-            placeholder="Enter your email address"
-        >
-
-        <button>
-            Subscribe to Newsletter
-        </button>
-
-    </div>
-
-</section>
 
 
 <!-- ================================
@@ -242,7 +260,6 @@
 ================================= -->
 
 <footer class="footer">
-
 
     <div class="footer-brand">
 
@@ -256,35 +273,22 @@
             From women to men.
         </p>
 
-
         <div class="social-icons">
 
-            <a
-                href="#"
-                aria-label="Twitter"
-            >
+            <a href="#" aria-label="Twitter">
                 <i class="fa-brands fa-x-twitter"></i>
             </a>
 
-            <a
-                href="#"
-                aria-label="Facebook"
-            >
+            <a href="#" aria-label="Facebook">
                 <i class="fa-brands fa-facebook-f"></i>
             </a>
 
-            <a
-                href="#"
-                aria-label="Instagram"
-            >
+            <a href="#" aria-label="Instagram">
                 <i class="fa-brands fa-instagram"></i>
             </a>
 
-            <a
-                href="#"
-                aria-label="WhatsApp"
-            >
-                <i class="fa-brands fa-whatsapp"></i>
+            <a href="#" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
             </a>
 
         </div>
@@ -391,7 +395,6 @@
 
     </div>
 
-
 </footer>
 
 
@@ -404,7 +407,7 @@
 </div>
 
 
-<script src="js/category.js"></script>
+<script src="js/signup.js"></script>
 
 </body>
 

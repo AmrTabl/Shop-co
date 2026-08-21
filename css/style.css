@@ -2217,3 +2217,790 @@ img {
     }
 
 }
+
+/* ========================================
+   SHOP DROPDOWN
+======================================== */
+
+.shop-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* SHOP BUTTON */
+
+.shop-link {
+    background: none;
+    border: none;
+
+    font-family: inherit;
+    font-size: inherit;
+
+    color: #000;
+
+    cursor: pointer;
+
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+/* ARROW */
+
+.dropdown-arrow {
+    display: inline-block;
+
+    transition: transform 0.2s ease;
+}
+
+
+/* DROPDOWN */
+
+.dropdown-menu {
+    position: absolute;
+
+    top: calc(100% + 15px);
+    left: 50%;
+
+    width: 190px;
+
+    padding: 8px;
+
+    background: white;
+
+    border: 1px solid #e5e5e5;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.12);
+
+    z-index: 9999;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform:
+        translateX(-50%)
+        translateY(-10px);
+
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease,
+        visibility 0.2s ease;
+}
+
+
+/* OPEN */
+
+.dropdown-menu.show {
+    opacity: 1;
+
+    visibility: visible;
+
+    transform:
+        translateX(-50%)
+        translateY(0);
+}
+
+
+/* LINKS */
+
+.dropdown-menu a {
+    display: block;
+
+    padding: 11px 14px;
+
+    color: #000;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    transition:
+        background 0.2s ease;
+}
+
+
+.dropdown-menu a:hover {
+    background: #f2f2f2;
+}
+
+
+/* DIVIDER */
+
+.dropdown-divider {
+    height: 1px;
+
+    background: #e5e5e5;
+
+    margin: 6px 4px;
+}
+
+
+/* ROTATE ARROW */
+
+.shop-dropdown.open
+.dropdown-arrow {
+    transform: rotate(180deg);
+}
+
+
+/* ========================================
+   SIGN IN PAGE
+======================================== */
+
+.signin-page {
+
+    min-height: 650px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 60px 20px;
+
+    background: #f7f7f7;
+
+}
+
+
+.signin-container {
+
+    width: 100%;
+
+    max-width: 450px;
+
+}
+
+
+.signin-card {
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.08);
+
+}
+
+
+.signin-card h1 {
+
+    font-size: 28px;
+
+    margin-bottom: 30px;
+
+    text-align: center;
+
+    font-weight: 700;
+
+}
+
+
+.signin-field {
+
+    margin-bottom: 20px;
+
+}
+
+
+.signin-field label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+}
+
+
+.signin-field input {
+
+    width: 100%;
+
+    padding: 13px 15px;
+
+    border: 1px solid #d0d0d0;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    outline: none;
+
+    box-sizing: border-box;
+
+}
+
+
+.signin-field input:focus {
+
+    border-color: #000;
+
+}
+
+
+.signin-options {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 25px;
+
+    font-size: 13px;
+
+}
+
+
+.remember-me {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 7px;
+
+}
+
+
+.signin-options a {
+
+    color: #000;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+}
+
+
+.signin-options a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+.signin-button {
+
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #000;
+
+    color: white;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+}
+
+
+.signin-button:hover {
+
+    background: #333;
+
+}
+
+
+.signup-text {
+
+    text-align: center;
+
+    margin-top: 25px;
+
+    font-size: 14px;
+
+    color: #666;
+
+}
+
+
+.signup-text a {
+
+    color: #000;
+
+    font-weight: 600;
+
+    text-decoration: none;
+
+}
+
+
+.signup-text a:hover {
+
+    text-decoration: underline;
+
+}
+/* ========================================
+   AUTH / SIGN UP PAGE
+======================================== */
+
+.auth-page {
+    min-height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 60px 20px;
+
+    background-color: #f5f5f5;
+}
+
+
+/* ========================================
+   AUTH CONTAINER
+======================================== */
+
+.auth-container {
+    width: 100%;
+    max-width: 500px;
+}
+
+
+/* ========================================
+   AUTH CARD
+======================================== */
+
+.auth-card {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    background-color: #ffffff;
+
+    padding: 40px;
+
+    border-radius: 16px;
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+
+/* ========================================
+   AUTH LOGO
+======================================== */
+
+.auth-logo {
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+
+.auth-logo a {
+    color: #000000;
+
+    font-size: 28px;
+
+    font-weight: 800;
+
+    text-decoration: none;
+
+    letter-spacing: -1px;
+}
+
+
+/* ========================================
+   TITLE
+======================================== */
+
+.auth-card h1 {
+    margin: 0;
+
+    text-align: center;
+
+    font-size: 30px;
+
+    font-weight: 700;
+
+    color: #000000;
+}
+
+
+/* ========================================
+   SUBTITLE
+======================================== */
+
+.auth-subtitle {
+    margin: 10px 0 30px;
+
+    text-align: center;
+
+    font-size: 14px;
+
+    color: #777777;
+}
+
+
+/* ========================================
+   FORM
+======================================== */
+
+#signup-form {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+
+/* ========================================
+   FIELD
+======================================== */
+
+.auth-field {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+
+/* ========================================
+   LABEL
+======================================== */
+
+.auth-field label {
+    font-size: 14px;
+
+    font-weight: 600;
+
+    color: #222222;
+}
+
+
+/* ========================================
+   INPUT
+======================================== */
+
+.auth-field input {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 14px 16px;
+
+    border: 1px solid #d6d6d6;
+
+    border-radius: 8px;
+
+    background-color: #f9f9f9;
+
+    color: #000000;
+
+    font-size: 15px;
+
+    outline: none;
+
+    transition: 0.2s ease;
+}
+
+
+/* INPUT PLACEHOLDER */
+
+.auth-field input::placeholder {
+    color: #999999;
+}
+
+
+/* INPUT FOCUS */
+
+.auth-field input:focus {
+    background-color: #ffffff;
+
+    border-color: #000000;
+
+    box-shadow:
+        0 0 0 2px rgba(0, 0, 0, 0.08);
+}
+
+
+/* ========================================
+   ERROR MESSAGE
+======================================== */
+
+.auth-error {
+    margin: -5px 0 0;
+
+    color: #e53935;
+
+    font-size: 14px;
+
+    text-align: center;
+}
+
+
+/* ========================================
+   SUCCESS MESSAGE
+======================================== */
+
+.auth-success {
+    margin: -5px 0 0;
+
+    color: #16803c;
+
+    font-size: 14px;
+
+    text-align: center;
+}
+
+
+/* ========================================
+   SIGN UP BUTTON
+======================================== */
+
+.auth-button {
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background-color: #000000;
+
+    color: #ffffff;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.2s ease;
+}
+
+
+.auth-button:hover {
+    background-color: #333333;
+
+    transform: translateY(-1px);
+}
+
+
+.auth-button:active {
+    transform: translateY(0);
+}
+
+
+/* ========================================
+   SIGN IN LINK
+======================================== */
+
+.auth-switch {
+    margin: 25px 0 0;
+
+    text-align: center;
+
+    color: #777777;
+
+    font-size: 14px;
+}
+
+
+.auth-switch a {
+    color: #000000;
+
+    font-weight: 600;
+
+    text-decoration: none;
+}
+
+
+.auth-switch a:hover {
+    text-decoration: underline;
+}
+
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (max-width: 600px) {
+
+    .auth-page {
+        padding: 40px 15px;
+    }
+
+
+    .auth-card {
+        padding: 30px 22px;
+
+        border-radius: 12px;
+    }
+
+
+    .auth-card h1 {
+        font-size: 25px;
+    }
+
+
+    .auth-logo a {
+        font-size: 25px;
+    }
+
+}
+
+/* ========================================
+   ALL PRODUCTS PAGE
+======================================== */
+
+.all-products-page {
+    padding: 40px 7%;
+}
+
+
+.breadcrumb {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: #666;
+}
+
+
+.breadcrumb a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+.all-products-section {
+    width: 100%;
+}
+
+
+.all-products-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+
+.all-products-header h1 {
+    font-size: 42px;
+    font-weight: 800;
+    margin: 0;
+}
+
+
+.all-products-header p {
+    color: #666;
+    font-size: 14px;
+}
+
+
+.all-products-section .products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+
+.all-products-section .product-card {
+    cursor: pointer;
+}
+
+
+.products-error {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+
+.products-error h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+
+.products-error p {
+    color: #666;
+}
+
+
+.products-error a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+
+@media (max-width: 1000px) {
+
+    .all-products-section .products-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+    .all-products-section .products-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .all-products-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+
+    .all-products-header h1 {
+        font-size: 32px;
+    }
+
+}
+
+
+@media (max-width: 450px) {
+
+    .all-products-section .products-container {
+        grid-template-columns: 1fr;
+    }
+
+}
